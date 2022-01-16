@@ -9,8 +9,8 @@ const increase =(number:number = 1) => {
 }
 
     return (
-        <div className="mt-5">
-            <h3>Counter: UseState</h3>
+        <>
+            <h3>Counter</h3>
             <span>Valor : {counter}</span>
             <br />
             <button 
@@ -28,6 +28,6 @@ const increase =(number:number = 1) => {
                 className=" btn btn-outline-danger m-2 ">
                 Reset
             </button>
-        </div>
+        </>
     )
 }

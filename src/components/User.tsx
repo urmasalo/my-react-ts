@@ -17,8 +17,8 @@ export const User = () => {
     }
 
     return (
-        <div className='mt-5'>
-            <h3>User: useState</h3>
+        <>
+            <h3>User</h3>
             <button 
                 onClick={login}
                 className="btn btn-outline-primary">Login
@@ -30,6 +30,6 @@ export const User = () => {
             }
             
 
-        </div>
+        </>
     )
 }
