@@ -2,6 +2,7 @@ import { Counter } from './components/Counter';
 import { TimerFather } from './components/TimerFather';
 import { User } from './components/User';
 import { CounterRed } from './components/CounterRed'
+import { Form } from './components/Form';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <h4>Use Reducer </h4>
       <hr />
       <CounterRed/>
+      <h4>Custom Hooks</h4>
+      <hr />
+      <Form/>
     </>
   );
 }
